@@ -1,5 +1,8 @@
 # Student Performance Tracking Database
 
+## Entity Relationship Diagram
+![ERD](erd-diagram.png)
+
 ## Overview
 This project implements a normalized relational database in MySQL designed to support student performance tracking, goal management, and advisory content.
 
@@ -23,9 +26,6 @@ The schema enforces referential integrity using primary keys, foreign keys, and 
 - Students linked to Teachers (many-to-many)  
 - Goals linked to Progress Entries  
 - Advice topics linked to Advice Items
-
-## Entity Relationship Diagram
-![ERD](erd-diagram.png)
 
 ## How to Run
 1. Open MySQL Workbench  
