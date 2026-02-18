@@ -22,7 +22,10 @@ The schema enforces referential integrity using primary keys, foreign keys, and 
 - Students linked to Parents (one-to-many)  
 - Students linked to Teachers (many-to-many)  
 - Goals linked to Progress Entries  
-- Advice topics linked to Advice Items  
+- Advice topics linked to Advice Items
+
+## Entity Relationship Diagram
+![ERD](erd-diagram.png)
 
 ## How to Run
 1. Open MySQL Workbench  
